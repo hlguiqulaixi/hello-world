@@ -1,0 +1,6 @@
+There are some wonderful maven tutorial:
+1. 《Maven内部运行原理解析一》 https://www.jianshu.com/p/0fb5e3fb704d
+2. 《Maven内部运行原理解析二》 https://www.jianshu.com/p/2f7080a4858c
+3.《关于Maven那些事》  https://www.jianshu.com/p/e28643507b16
+
+POM、pom.xml、 lifecycle、 phase、 goal、 plugin
