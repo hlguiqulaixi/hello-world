@@ -1,0 +1,8 @@
+1. 生成项目框架：
+  mvn archetype:generate -B -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.6  -DgroupId=com.hainiubl.scala -DartifactId=scala-demo3 -Dversion=1.0 -Dpackage=com.hainiubl.scala.demo
+1.1 maven的archetype参数说明： http://maven.apache.org/archetype/maven-archetype-plugin/generate-mojo.html
+    这其中的 -B 应该是interactiveMode
+1.2 示例教程： http://blog.51cto.com/shuiniu/1890363 
+1.3 参考该教程时，无法在交互模式下找到给scala使用的archetype!
+    https://docs.scala-lang.org/tutorials/scala-with-maven.html 
+    在maven中使用自己定制的或者额外的archetype应该是需要其它的配置的，但目前我不知道
